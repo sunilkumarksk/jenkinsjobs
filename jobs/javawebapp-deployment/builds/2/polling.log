@@ -1,0 +1,21 @@
+Started on Jan 8, 2023, 8:30:49 PM
+Started by event from 140.82.115.96 ⇒ http://35.199.181.18:8080/github-webhook/ on Sun Jan 08 20:30:49 UTC 2023
+Polling SCM changes on master
+Using strategy: Default
+[poll] Last Built Revision: Revision 7fc08c11fd005be4217fc335cb9622db860793fc (origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/javawebapp-deployment/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/sunilkumarksk/simplejavaapp.git # timeout=10
+Fetching upstream changes from https://github.com/sunilkumarksk/simplejavaapp.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/sunilkumarksk/simplejavaapp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 7fc08c11fd005be4217fc335cb9622db860793fc..8e8baf69cfcc0138404b8f5edee293c8683024b4 # timeout=10
+Done. Took 0.48 sec
+Changes found
