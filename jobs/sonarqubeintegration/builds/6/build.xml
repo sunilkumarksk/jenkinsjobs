@@ -1,0 +1,92 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.20">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.11.5">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.2">
+              <sha1>2f11fceede2f257137f7a388be298add3e805acc</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>6</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/sunilkumarksk/simplejavaapp.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.sonar.action.SonarAnalysisAction plugin="sonar@2.15">
+      <installationName>sonarqube-7.6</installationName>
+      <installationUrl>http://35.199.181.18:9000</installationUrl>
+      <credentialsId>sonarqubetoken</credentialsId>
+      <ceTaskId>AYWaKpvRNfJbJPepRfCV</ceTaskId>
+      <url>http://35.199.181.18:9000/dashboard?id=github-jenkins-sonar</url>
+      <serverUrl>http://35.199.181.18:9000</serverUrl>
+      <isNew>true</isNew>
+      <isSkipped>false</isSkipped>
+    </hudson.plugins.sonar.action.SonarAnalysisAction>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.cloudifysource.examples:java-hello-world.war</string>
+          <string>1d79f0036e94de8634c9af3387aac40b</string>
+        </entry>
+        <entry>
+          <string>junit:junit-3.8.1.jar</string>
+          <string>1f40fb782a4f2cf78f161d32670f7a3a</string>
+        </entry>
+        <entry>
+          <string>org.cloudifysource.examples:java-hello-world-webapp:pom.xml</string>
+          <string>6f2733bc8e48e39a5252dd394442133c</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>33</queueId>
+  <timestamp>1673328734257</timestamp>
+  <startTime>1673328734261</startTime>
+  <result>SUCCESS</result>
+  <duration>63686</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/sonarqubeintegration</workspace>
+  <hudsonVersion>2.385</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.11.5">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+  <mavenVersionUsed>3.0.5</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,116 @@
+Started by user [8mha:////4KjCyFLrtg5GYaFKg8V9l1eCZlgdtAgRas53IfWTvxPMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4LXnDe+FM9aa7ggxi81guK9SdJs71zgwPxwgpFFx9HN3AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Ah7MhKopMBGJ04JbVKgjVcPbPAQDmyL2JTG0+hZcbTeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4J9bvyAzzI1ep0/H7PUOuMDcPnX6wNpK0X90oojBCFq/AAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYZ/dzEvMT0VP3k/NyC0pLUIn2NpNLMnBLdzDxNfQB9z6/O0QAAAA==[0mJenkins in /var/lib/jenkins/workspace/sonarqubepipeline
+[8mha:////4DcUWRXQ8TazkkTqq5IcihJRm0zPsUBUHUuEt/3+4Se8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4IPmANrTkEh+DmpT27OwKZNRdByu6ksAPyh3ROdINn4TAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4E9r21CWaKRop3MFcnBunBVqJQpCybGjPZ8MCfLkPFYKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4J2somKYCOatCZ1M7IoORdwL8HfCPpEAAqHveeZseRKzAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential githubid
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/sonarqubepipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sunilkumarksk/simplejavaapp.git # timeout=10
+Fetching upstream changes from https://github.com/sunilkumarksk/simplejavaapp.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/sunilkumarksk/simplejavaapp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2f11fceede2f257137f7a388be298add3e805acc (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2f11fceede2f257137f7a388be298add3e805acc # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main 2f11fceede2f257137f7a388be298add3e805acc # timeout=10
+Commit message: "Demo 2"
+ > git rev-list --no-walk 2f11fceede2f257137f7a388be298add3e805acc # timeout=10
+[8mha:////4BnmZ0rF3cJoA5aJhCo+aKJ+K9PanWLOfKQH39apCVpBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Iy0iyWKJBS6oW0DfuMxZpi90eSE44lMtSGhSpKi3bndAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4NQ8h12X5cixmqKsTYkSYPJfJaUN8hNw9e6EVTOFlFCkAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4CZ+bZMKok3xWuqly7bvLSD6zKA/dQR7b0ajzEkWipqfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (sonarqube)
+[8mha:////4J/1xcLp+RnGwyojl+D3cLqmJMMjeqhpTLNqMUjG5FevAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonarqube-7.6
+[8mha:////4IjcTzsTNfie/7dpEhpktYXV261CwM5GjUaFJ91acC1/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4ILksWlysgGkklXhnVCBCkISgIJk/MDzORjXc6aq5Ha8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ mvn sonar:sonar
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building java-hello-world-webapp Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.9.1.2184:sonar (default-cli) @ java-hello-world-webapp ---
+[INFO] User cache: /var/lib/jenkins/.sonar/cache
+[INFO] SonarQube version: 7.6.0
+[INFO] Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=262ms
+[INFO] Server id: FB4B1083-AYWWbE3bnoOuDh3aMwnA
+[INFO] User cache: /var/lib/jenkins/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=139ms
+[INFO] Load/download plugins (done) | time=297ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=7ms
+[INFO] Project key: org.cloudifysource.examples:java-hello-world-webapp
+[INFO] Base dir: /var/lib/jenkins/workspace/sonarqubepipeline
+[INFO] Working dir: /var/lib/jenkins/workspace/sonarqubepipeline/target/sonar
+[INFO] Load project settings
+[INFO] Load project settings (done) | time=501ms
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=332ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=366ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=1511ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=40ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 3 files indexed
+[INFO] Quality profile for jsp: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module java-hello-world-webapp Maven Webapp
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1313ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 2 source files to be analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=7808ms
+[INFO] Sensor HTML [web]
+[INFO] 2/2 source files have been analyzed
+[INFO] Sensor HTML [web] (done) | time=206ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 2 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=280ms
+[INFO] 2/2 source files have been analyzed
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=1251ms
+[INFO] ------------- Run sensors on project
+[INFO] 1 file had no CPD blocks
+[INFO] Calculating CPD for 0 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 28949ms, dir size=74 KB
+[INFO] Analysis report compressed in 9400ms, zip size=13 KB
+[INFO] Analysis report uploaded in 8792ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=org.cloudifysource.examples%3Ajava-hello-world-webapp
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://localhost:9000/api/ce/task?id=AYWc2Y8Ah8xUx06QXiZ5
+[INFO] Analysis total time: 1:10.612 s
+Resuming build at Tue Jan 10 18:19:18 UTC 2023 after Jenkins restart
+Waiting to resume part of sonarqubepipeline #16: Waiting for next available executor
+Ready to run at Tue Jan 10 18:19:23 UTC 2023
+Pausing
+Sending interrupt signal to process
+Aborted by [8mha:////4KjCyFLrtg5GYaFKg8V9l1eCZlgdtAgRas53IfWTvxPMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4GwdWmHw5vFlLCMX4AJ6JCA93ZQfyGImtOnnTvorOdnWAAAA/h+LCAAAAAAAAP9djjFOAzEQRWc3ghpRIjr6cVaIZBOUCgqQIogULrAJxutdY0/sMQkNh+Aa0CBxBQ7BBeioKWgw2gpG+vq/eU/z/AlbwcOp8wobaVttw1IjmajSwrXz7Y1xawyRyHnGwJICakuRcXY5vzq7J+mNtu2FY7nz3nv9Gn5/5JBNoRe9YdidNtVdJUxllZiz11Ydbzzs1/E6OItLZ4MzEv9YBpOnl8kjveWQn8O2kVZx3elW8ABZwvf+4Sdd/8LQXZYDbCgNZMgOGIY1M42FODzCYjTCoixSxmW/7IvGLUSSVX4VF5I0yfSHFMVAsPS3P21Lce0eAQAA[0mClick here to forcibly terminate running steps
+Terminating sh
+After 20s process did not stop
+Terminating withSonarQubeEnv
+Terminating withSonarQubeEnv
+Terminating withSonarQubeEnv
+[8mha:////4GQZSkpbjZhAhAO935RW+gvv9Hw//VCFwcjLFePc/57NAAABAB+LCAAAAAAAAP9djjFOAzEQRWc3ghpRIjoaqnFWiGQTlAoKkCKCFC6wCcbrXcue2GMSGg7BNaBB4gocggvQUVPQYLQVjPT1f/Oe5vkTtoKHM+cVNtK22oalRjJRpYVr59tb49YYIpHzjIElBdSWIuPVbH59fk/SG23bS8dy5733+jX8/sghm0IvesOwO22qu0qYyioxZ6+tOtl42K/jTXAWl84GZyT+sQwmTy+TR3rLIb+AbSOt4rrTreABsoTv/cNPu/6FobssB9hQGocM2QHDsGamsRBHx1iMRliURcq47Jd90biFSLLKr+JCkiaZ/pCiGIhWG/MDAIKNdx4BAAA=[0mClick here to forcibly kill entire build
+Hard kill!
+Finished: ABORTED

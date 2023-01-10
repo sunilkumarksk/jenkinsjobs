@@ -1,0 +1,53 @@
+Started by user [8mha:////4KjCyFLrtg5GYaFKg8V9l1eCZlgdtAgRas53IfWTvxPMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 5: Unknown stage section "git". Starting with version 0.5, steps in a stage must be in a ‘steps’ block. @ line 5, column 9.
+           stage('Checkout') {
+           ^
+
+WorkflowScript: 9: Not a valid stage section definition: "def mvnHome =  tool name: 'maven-3', type: 'maven'". Some extra configuration is required. @ line 9, column 10.
+            stage('Compile-Package'){
+            ^
+
+WorkflowScript: 9: Unknown stage section "sh". Starting with version 0.5, steps in a stage must be in a ‘steps’ block. @ line 9, column 10.
+            stage('Compile-Package'){
+            ^
+
+WorkflowScript: 15: Not a valid stage section definition: "def mvnHome =  tool name: 'maven-3', type: 'maven'". Some extra configuration is required. @ line 15, column 4.
+      stage('SonarQube Analysis') {
+      ^
+
+WorkflowScript: 15: Unknown stage section "withSonarQubeEnv". Starting with version 0.5, steps in a stage must be in a ‘steps’ block. @ line 15, column 4.
+      stage('SonarQube Analysis') {
+      ^
+
+WorkflowScript: 5: Expected one of "steps", "stages", or "parallel" for stage "Checkout" @ line 5, column 9.
+           stage('Checkout') {
+           ^
+
+WorkflowScript: 9: Expected one of "steps", "stages", or "parallel" for stage "Compile-Package" @ line 9, column 10.
+            stage('Compile-Package'){
+            ^
+
+WorkflowScript: 15: Expected one of "steps", "stages", or "parallel" for stage "SonarQube Analysis" @ line 15, column 4.
+      stage('SonarQube Analysis') {
+      ^
+
+8 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1107)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:677)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:689)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:142)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:127)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:572)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:524)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:335)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

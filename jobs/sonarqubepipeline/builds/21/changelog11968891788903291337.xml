@@ -1,0 +1,11 @@
+commit 0ecd581b276f9ffc3344f09a6d4f3bc7733193fd
+tree 59e6353e1b4f3f248c40e630d0f61f87454c945c
+parent 2f11fceede2f257137f7a388be298add3e805acc
+author sunilkumarksk <84894865+sunilkumarksk@users.noreply.github.com> 2023-01-11 00:30:45 +0530
+committer GitHub <noreply@github.com> 2023-01-11 00:30:45 +0530
+
+    Update index.jsp
+    
+    Sonarqube bug fixes
+
+:100644 100644 25da794f869d069313fe67305a7da8b11698da78 fc30a1e1f2d40432f0c2cf22c2ba8773b3d4df4d M	src/main/webapp/index.jsp

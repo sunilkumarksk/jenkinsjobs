@@ -1,0 +1,29 @@
+Started by user [8mha:////4KjCyFLrtg5GYaFKg8V9l1eCZlgdtAgRas53IfWTvxPMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sonarqubeintegration
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/sonarqubeintegration/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sunilkumarksk/simplejavaapp.git # timeout=10
+Fetching upstream changes from https://github.com/sunilkumarksk/simplejavaapp.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/sunilkumarksk/simplejavaapp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 2f11fceede2f257137f7a388be298add3e805acc (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2f11fceede2f257137f7a388be298add3e805acc # timeout=10
+Commit message: "Demo 2"
+ > git rev-list --no-walk 2f11fceede2f257137f7a388be298add3e805acc # timeout=10
+FATAL: Unable to find SonarQube project settings at /var/lib/jenkins/workspace/sonarqube.properties
+[sonarqubeintegration] $ /bin/sh -xe /tmp/jenkins5872408319524328843.sh
++ whoami
+jenkins
++ sudo cp /var/lib/jenkins/workspace/sonarqubeintegration/target/java-hello-world.war /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps
+cp: cannot stat ‘/var/lib/jenkins/workspace/sonarqubeintegration/target/java-hello-world.war’: No such file or directory
+Build step 'Execute shell' marked build as failure
+ERROR: Unable to find SonarQube project settings at /var/lib/jenkins/workspace/sonarqube.properties
+Finished: FAILURE

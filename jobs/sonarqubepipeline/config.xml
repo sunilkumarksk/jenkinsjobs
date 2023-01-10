@@ -1,0 +1,69 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1174.1176.va_29023983d67">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2064.v5eef7d0982b_e"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2064.v5eef7d0982b_e">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.36.1">
+      <projectUrl>https://github.com/sunilkumarksk/simplejavaapp/</projectUrl>
+      <displayName></displayName>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.36.1">
+          <spec></spec>
+        </com.cloudbees.jenkins.GitHubPushTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2660.2664.v4c114e93f4c1">
+    <script>pipeline {
+  agent any
+
+  stages {
+    stage(&apos;Checkout&apos;) {
+      steps {
+        git branch: &apos;main&apos;, credentialsId: &apos;githubid&apos;, url: &apos;https://github.com/sunilkumarksk/simplejavaapp.git&apos;
+      }
+    }
+    stage(&apos;sonarqube&apos;) {
+      steps {
+        withSonarQubeEnv(&apos;sonarqube-7.6&apos;) {
+          sh &apos;mvn sonar:sonar&apos;
+        }
+      }
+    }
+    stage(&quot;Quality Gate&quot;) {
+      steps {
+        timeout(time: 5, unit: &apos;MINUTES&apos;) {
+          waitForQualityGate abortPipeline: true
+        }
+      }
+    }
+    stage(&quot;Build&quot;) {
+      steps {
+        sh &apos;mvn clean install&apos;
+      }
+    }
+    stage(&quot;App Deploy&quot;) {
+      steps {
+          sh &apos;sudo chmod -R 777 /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps&apos;
+        sh &apos;sudo cp ./target/java-hello-world.war /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps/&apos;
+      }
+    }
+
+  }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
