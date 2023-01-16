@@ -24,7 +24,7 @@
       </triggers>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
-  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2660.2664.v4c114e93f4c1">
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3601.v9b_36a_d99e1cc">
     <script>pipeline {
   agent any
 
@@ -50,20 +50,46 @@
     }
     stage(&quot;Build&quot;) {
       steps {
+        sh &apos;rm -f *.war&apos;
         sh &apos;mvn clean install&apos;
+        sh &apos;mvn deploy&apos;
       }
     }
     stage(&quot;App Deploy&quot;) {
       steps {
-          sh &apos;sudo chmod -R 777 /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps&apos;
-        sh &apos;sudo cp ./target/java-hello-world.war /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps/&apos;
+          script {
+               def logContent = Jenkins.getInstance()
+               .getItemByFullName(env.JOB_NAME)
+               .getBuildByNumber(
+                   Integer.parseInt(env.BUILD_NUMBER))
+                   .logFile.text
+// copy the log in the job&apos;s own workspace
+                writeFile file: &quot;buildlog.txt&quot;, text: logContent
+
+              sh &apos;match=$(cat buildlog.txt | grep &quot;Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/[0-9].[0-9]-SNAPSHOT/java-hello-world-webapp-[0-9].[0-9]-.*.war&quot;); url=($match); sudo wget ${url[6]};&apos;
+              //sh &apos;url=($match)&apos;
+              //sh &apos;wget ${url[1]}&apos;
+              sh &apos;sudo cp *.war /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps/&apos;
+              sh &apos;rm *.war&apos;
+          }
+
+             // script{
+               //         sh &apos;echo Insidescripts&apos;
+                        
+//                    def logContent = Jenkins.getInstance().getItemByFullName(env.JOB_NAME).getBuildByNumber(Integer.parseInt(env.BUILD_NUMBER)).logFile.text
+            //        cat logContent | grep &apos;Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/[0-9].[0-9]-SNAPSHOT/java-hello-world-webapp-[0-9].[0-9]-.*.war&apos;
+
+ //                  manager.getLogMatcher(&apos;Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/[0-9].[0-9]-SNAPSHOT/java-hello-world-webapp-[0-9].[0-9]-.*.war&apos;)
+//}
+//          sh &apos;sudo chmod -R 777 /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps&apos;
+//                sh &apos;sudo cp ./target/java-hello-world.war /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps/&apos;
       }
-    }
+   }
 
   }
 }</script>
     <sandbox>true</sandbox>
   </definition>
   <triggers/>
-  <disabled>true</disabled>
+  <disabled>false</disabled>
 </flow-definition>

@@ -1,0 +1,198 @@
+Started by user [8mha:////4KjCyFLrtg5GYaFKg8V9l1eCZlgdtAgRas53IfWTvxPMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4LXnDe+FM9aa7ggxi81guK9SdJs71zgwPxwgpFFx9HN3AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Ah7MhKopMBGJ04JbVKgjVcPbPAQDmyL2JTG0+hZcbTeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4J9bvyAzzI1ep0/H7PUOuMDcPnX6wNpK0X90oojBCFq/AAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYZ/dzEvMT0VP3k/NyC0pLUIn2NpNLMnBLdzDxNfQB9z6/O0QAAAA==[0mJenkins in /var/lib/jenkins/workspace/jfrog
+[8mha:////4DcUWRXQ8TazkkTqq5IcihJRm0zPsUBUHUuEt/3+4Se8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4IPmANrTkEh+DmpT27OwKZNRdByu6ksAPyh3ROdINn4TAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4E9r21CWaKRop3MFcnBunBVqJQpCybGjPZ8MCfLkPFYKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4J2somKYCOatCZ1M7IoORdwL8HfCPpEAAqHveeZseRKzAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential githubid
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/jfrog/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sunilkumarksk/simplejavaapp.git # timeout=10
+Fetching upstream changes from https://github.com/sunilkumarksk/simplejavaapp.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/sunilkumarksk/simplejavaapp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 44f977d93f8e983493ada8ee53e811f07d981411 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 44f977d93f8e983493ada8ee53e811f07d981411 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main 44f977d93f8e983493ada8ee53e811f07d981411 # timeout=10
+Commit message: "Update index.jsp"
+ > git rev-list --no-walk 44f977d93f8e983493ada8ee53e811f07d981411 # timeout=10
+[8mha:////4BnmZ0rF3cJoA5aJhCo+aKJ+K9PanWLOfKQH39apCVpBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Iy0iyWKJBS6oW0DfuMxZpi90eSE44lMtSGhSpKi3bndAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4NQ8h12X5cixmqKsTYkSYPJfJaUN8hNw9e6EVTOFlFCkAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4CZ+bZMKok3xWuqly7bvLSD6zKA/dQR7b0ajzEkWipqfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4E73U4bxcGseqfca9BzAfz2KKUkaEVZmyw/9VBZt/sCSAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ rm -f '*.war'
+[8mha:////4MNd3WOEuXU5MdulLGAPyTrFOUCQO8q559sUcHesZC3VAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building java-hello-world-webapp Maven Webapp1 1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ java-hello-world-webapp ---
+[INFO] Deleting /var/lib/jenkins/workspace/jfrog/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ java-hello-world-webapp ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/jfrog/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ java-hello-world-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ java-hello-world-webapp ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/jfrog/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ java-hello-world-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ java-hello-world-webapp ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/jfrog/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ java-hello-world-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [java-hello-world-webapp] in [/var/lib/jenkins/workspace/jfrog/target/java-hello-world]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/jfrog/src/main/webapp]
+[INFO] Webapp assembled in [35 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/jfrog/target/java-hello-world.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ java-hello-world-webapp ---
+[INFO] Installing /var/lib/jenkins/workspace/jfrog/target/java-hello-world.war to /var/lib/jenkins/.m2/repository/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/jfrog/pom.xml to /var/lib/jenkins/.m2/repository/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.276s
+[INFO] Finished at: Mon Jan 16 07:00:45 UTC 2023
+[INFO] Final Memory: 10M/212M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4P1/yGiEnUfnQuh+CGRj86u7rXkvk4dygM2k6dr3assaAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ mvn deploy
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building java-hello-world-webapp Maven Webapp1 1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ java-hello-world-webapp ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/jfrog/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ java-hello-world-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ java-hello-world-webapp ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/jfrog/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ java-hello-world-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ java-hello-world-webapp ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/jfrog/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ java-hello-world-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [java-hello-world-webapp] in [/var/lib/jenkins/workspace/jfrog/target/java-hello-world]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/jfrog/src/main/webapp]
+[INFO] Webapp assembled in [27 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/jfrog/target/java-hello-world.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ java-hello-world-webapp ---
+[INFO] Installing /var/lib/jenkins/workspace/jfrog/target/java-hello-world.war to /var/lib/jenkins/.m2/repository/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/jfrog/pom.xml to /var/lib/jenkins/.m2/repository/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ java-hello-world-webapp ---
+Downloading: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/maven-metadata.xml
+794/794 B               Downloaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/maven-metadata.xml (794 B at 5.1 KB/sec)
+Uploading: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-20230116.070050-9.war
+2/3 KB      3/3 KB            Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-20230116.070050-9.war (3 KB at 23.4 KB/sec)
+Uploading: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-20230116.070050-9.pom
+2/2 KB            Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-20230116.070050-9.pom (2 KB at 14.0 KB/sec)
+Downloading: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/maven-metadata.xml
+397/397 B               Downloaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/maven-metadata.xml (397 B at 12.5 KB/sec)
+Uploading: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/maven-metadata.xml
+794/794 B               Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/maven-metadata.xml (794 B at 24.2 KB/sec)
+Uploading: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/maven-metadata.xml
+342/342 B               Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/maven-metadata.xml (342 B at 7.3 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.184s
+[INFO] Finished at: Mon Jan 16 07:00:50 UTC 2023
+[INFO] Final Memory: 11M/192M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4EuTlPlfcW0VxP3z4ndj1l19X3j4jktVUwJzsFPIck/7AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] }
+[8mha:////4HDm9Gm035nRcPlNNpBS3KTBXUs99Bi4KaimDvkd/OxlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BqREs8C+AAAA[0m[Pipeline] // stage
+[8mha:////4EtXYP0h/TSTEW+npmf/wmQttaXWHh1zou+a6rE54HsXAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] stage
+[8mha:////4Iv2SOdafIR3jpVtit3EKb6AwlNQIlO/h4w+C+ziklifAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (App Deploy)
+[8mha:////4Le/4e2q7kK5zwGa2cTc0gtS/hx0+My4nHGf0if3B+HXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] script
+[8mha:////4EMJ0PdsWvUKCnq8qFu0YYV+UZmpxj9ejLsUC2AImzf/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4H+CXodlqJLwdG5DZzxBvfKRyWpcQ8yg4hAsUHsgp45JAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] writeFile
+[8mha:////4HEArom5DK3NRgDFOQk54d1WyM4gLLlq4LAI/YiseFAPAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] sh
+++ cat buildlog.txt
+++ grep 'Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/[0-9].[0-9]-SNAPSHOT/java-hello-world-webapp-[0-9].[0-9]-.*.war'
++ match='2/3 KB      3/3 KB            Uploaded: http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-20230116.070050-9.war (3 KB at 23.4 KB/sec)'
++ url=($match)
++ sudo wget http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-20230116.070050-9.war
+--2023-01-16 07:00:51--  http://localhost:8081/artifactory/libs-snapshot-local/org/cloudifysource/examples/java-hello-world-webapp/1.1-SNAPSHOT/java-hello-world-webapp-1.1-20230116.070050-9.war
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:8081... connected.
+HTTP request sent, awaiting response... 200 
+Length: 2591 (2.5K) [application/java-archive]
+Saving to: ‘java-hello-world-webapp-1.1-20230116.070050-9.war’
+
+     0K ..                                                    100%  196M=0s
+
+2023-01-16 07:00:51 (196 MB/s) - ‘java-hello-world-webapp-1.1-20230116.070050-9.war’ saved [2591/2591]
+
+[8mha:////4PmkiRI0ksvL9Wvxj/AcAGYDGx3edH5QSSJ2Z5kPqskgAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/e6oHOBr4AAAA=[0m[Pipeline] sh
++ cp java-hello-world-webapp-1.1-20230116.070050-9.war /home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps/
+cp: failed to access ‘/home/sunilkumark1994/sunil/tomcat/apache-tomcat-8.5.78/webapps/’: Permission denied
+[8mha:////4CdylU3ZQ5ywjQpYPIJ0CvAmlausJq/gaZQnQM74tTbwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] }
+[8mha:////4NqPlkw0ZT609zzm4BOyx5bDKv4YfPAPVXKC2TostveCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAM5QTDr4AAAA=[0m[Pipeline] // script
+[8mha:////4FcaOA+nEewxi5XJR5i1YeY+F1/YN46eAmIfD8QJmrIjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAC9aA/74AAAA=[0m[Pipeline] }
+[8mha:////4KfhHcSWRtw984fl85H7pClWvhrqu1WAd1uf4uzSy8vkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaFIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QE/GGOkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JIqcfjJuqlNE3z8FlUFcBDRDMpLBqD+jZi/EutcFv0YAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA+oSoWS9AAAA[0m[Pipeline] }
+[8mha:////4LuE98SmDWXDycJlQIWTfbQ6PBIT2ctWarLlF57vUvvRAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+a6lx70AAAA=[0m[Pipeline] // node
+[8mha:////4Ax9LK77totdlrpSItoyvf1y2sp3u/WhuB7NBR76jf8gAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T67L+52vQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
